@@ -49,10 +49,10 @@ const Projects = () => {
       id: 6,
       title: 'Portfolio Website',
       description: 'A modern, responsive portfolio website built with React and TailwindCSS to showcase projects and skills.',
-      image: 'https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80',
+      image: 'https://i.postimg.cc/k5g4sCjc/portfolio.png',
       technologies: ['React', 'TailwindCSS', 'Vite'],
-      liveLink: '#',
-      codeLink: '#',
+      liveLink: 'https://portfolio-l9qa0ozax-obiamakamarias-projects.vercel.app/',
+      codeLink: 'https://github.com/ObiamakaMaria/Portfolio',
     }
   ];
 
