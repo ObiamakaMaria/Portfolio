@@ -2,6 +2,15 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
+      title: 'Fitness Website',
+      description: "Evogym is a responsive fitness website built with React and TypeScript. It showcases the gym's facilities, benefits, classes, and membership contact form in a focused single-page experience. The site features smooth section navigation, a clean modern layout, and mobile-friendly components that make it easy for visitors to explore the gym's offerings and get started with their fitness journey.",
+      image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+      technologies: ['React', 'TypeScript', 'TailwindCSS'],
+      liveLink: 'https://gym-typescript-k3owpv0zi-obiamakamarias-projects.vercel.app/',
+      codeLink: 'https://github.com/ObiamakaMaria/gym-typescript',
+    },
+    {
+      id: 2,
       title: 'Decentralized NFT Minting Platform',
       description: 'This decentralized application (dApp) allows users to mint, view, and transfer NFTs. The NFTs features AI-generated images that are stored on IPFS, with metadata populated from the IPFS links. The platform is built with security and user experience in mind, implementing sequential minting and proper ownership verification.',
       image: 'https://i.postimg.cc/q7L2LVfd/NFT-minting-Dapp.png',
@@ -10,7 +19,7 @@ const Projects = () => {
       codeLink: 'https://github.com/ObiamakaMaria/NFT_Dapp',
     },
     {
-      id: 2,
+      id: 3,
       title: 'UniSwapV2 Interaction Dapp',
       description: 'A modern web application for exploring Uniswap V2 trading pairs. it allows you to search any Uniswap V2 pair by contract address and view detailed token information and reserves. It showcases a modern and responsive UI and a fast data fetching using multicall secure address validation.  ',
       image: 'https://i.postimg.cc/bJrS9ZHQ/Uniswap.png',
@@ -19,7 +28,7 @@ const Projects = () => {
       codeLink: 'https://github.com/ObiamakaMaria/UniSwapV2_Interaction_Dapp',
     },
     {
-      id: 3,
+      id: 4,
       title: 'Decentralized Credit Builder Loan application',
       description: 'An innovative decentralized platform that helps individuals build verifiable credit histories on the blockchain through structured credit builder loans, creating financial inclusion for the underbanked while generating sustainable revenue through various service fees and marketplace opportunities.',
       image: 'https://i.postimg.cc/g2bRbkmW/cred-Verify2.png',
@@ -28,7 +37,7 @@ const Projects = () => {
       codeLink: 'https://github.com/ObiamakaMaria/credVerifyFrontend',
     },
     {
-      id: 4,
+      id: 5,
       title: 'Wagmi Wallet Connector',
       description: 'This project provides a simple and user-friendly Wallet Connect modal using Wagmi, a popular React hooks library for Ethereum-based wallets.It allows users to connect, disconnect wallets using multiple connectors (Injected Wallet) and switch networks between supported chains or networks  in a seamless manner.',
       image: 'https://i.postimg.cc/PfF90Jpv/walletconnect.png',
@@ -36,15 +45,6 @@ const Projects = () => {
       liveLink: 'https://wagmi-wallet-connector.vercel.app/',
       codeLink: 'https://github.com/ObiamakaMaria/Wagmi_Wallet_Connector',
     },
-    // {
-    //   id: 5,
-    //   title: 'Fitness Tracker',
-    //   description: 'A mobile-responsive application for tracking workouts, nutrition, and fitness goals with progress visualization and personalized recommendations.',
-    //   image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
-    //   technologies: ['React Native', 'Firebase', 'HealthKit API', 'Google Fit API'],
-    //   liveLink: '#',
-    //   codeLink: '#',
-    // },
     {
       id: 6,
       title: 'Portfolio Website',
